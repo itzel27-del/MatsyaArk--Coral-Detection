@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Coral Health Classifier</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Coral Bleaching Detection</h1>
+        <form method="POST" enctype="multipart/form-data">
+            <input type="file" name="image" accept="image/*" required>
+            <button type="submit">Predict</button>
+        </form>
+
+        {% if prediction %}
+            <h2>Prediction: {{ prediction }}</h2>
+            {% if image_url %}
+                <img src="{{ image_url }}" alt="Uploaded Image" style="max-width: 400px; max-height: 400px;">
+            {% endif %}
+        {% endif %}
+    </div>
+</body>
+</html>
