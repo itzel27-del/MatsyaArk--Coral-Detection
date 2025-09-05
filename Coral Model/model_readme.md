@@ -18,19 +18,6 @@ This repository contains code for training a **lightweight deep learning model**
 
 ---
 
-## 📂 Project Structure
-```
-
-├── app.py                          # (Flask app for inference - optional)
-├── coral\_bleaching\_lightweight.pt  # Trained PyTorch model
-├── static/                         # CSS, JS, images (for web app)
-├── templates/                      # HTML templates (for web app)
-└── train.py                        # Training script (this code)
-
-```
-
----
-
 ## 🚀 Tech Stack
 - **Python 3.x**
 - **PyTorch** (deep learning framework)
@@ -48,13 +35,21 @@ This repository contains code for training a **lightweight deep learning model**
 ```
 
 dataset/
+
 └── Train/
+
 ├── Bleached/
+
 │   ├── img1.jpg
+
 │   ├── img2.jpg
+
 │   ...
+
 └── Unbleached/
+
 ├── img3.jpg
+
 ├── img4.jpg
 ...
 
