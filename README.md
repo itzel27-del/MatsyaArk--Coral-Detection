@@ -38,7 +38,7 @@ Copy code
 
 1. **Clone the repository**  
    ```bash
-   git clone [https://github.com/<your-username>/<repo-name>.git](https://github.com/itzel27-del/MatsyaArk--Coral-Detection.git)
+   git clone https://github.com/itzel27-del/MatsyaArk--Coral-Detection.git
    cd MatsyaArk--Coral-Detection
 Create a virtual environment (recommended)
 
