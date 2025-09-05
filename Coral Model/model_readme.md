@@ -1,4 +1,4 @@
-```markdown
+
 # 🌊 Coral Bleaching Detection – Model Training
 
 This repository contains code for training a **lightweight deep learning model** to detect **coral bleaching** using transfer learning with **MobileNetV2**. The model is trained on a coral reef dataset and achieves high validation accuracy, making it suitable for deployment in lightweight applications.
@@ -32,7 +32,7 @@ This repository contains code for training a **lightweight deep learning model**
 1. **Dataset Structure**  
    Your dataset should be organized as:
 
-```
+
 
 dataset/
 
